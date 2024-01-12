@@ -46,7 +46,6 @@ const App = () => {
       });
       window.localStorage.setItem("loggedBlogAppUser", JSON.stringify(user));
       setUser(user);
-      console.log(user);
       setUsername("");
       setPassword("");
     } catch (exception) {
